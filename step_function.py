@@ -1,9 +1,11 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def step_function(x):
-  y = x > 0
-  print(y)
-  return y.astype(np.int)
+  return np.array(x > 0, dtype=np.int)
 
-res = step_function(np.array([0,1,3]))
-print(res)
+x = np.arange(-5.0, 5.0, 0.1)
+y = step_function(x)
+plt.plot(x, y)
+plt.ylim(-0.1, 1.1)
+plt.show()
