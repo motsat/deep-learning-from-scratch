@@ -9,12 +9,17 @@ class simpleNet:
     def __init__(self):
         self.W = np.random.randn(2,3)
 
+    # 重みパラメータで行列の積をとる
     def predict(self, x):
         return np.dot(x, self.W)
 
+    # 損失値を求める
     def loss(self, x, t):
+        # 重みパラメータをかけ
         z = self.predict(x)
+        # softmax関数(活性化関数)で、確率的な値に変換
         y = softmax(z)
+        # 損失関数により、訓練データとの損失具合をもとめる 
         return cross_entropy_error(y,t)
 
 net = simpleNet()
@@ -32,6 +37,7 @@ net.loss(x, t)
 
 def f(W):
     return net.loss(x, t)
+# 勾配を求める
 dw = numerical_gradient(f, net.W)
 print(dw)
 #class SimpleNet
