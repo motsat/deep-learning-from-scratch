@@ -1,0 +1,12 @@
+
+dataset/__init__.pyc
+dataset/mnist.pkl
+dataset/mnist.pyc
+dataset/t10k-images-idx3-ubyte.gz
+dataset/t10k-labels-idx1-ubyte.gz
+dataset/train-images-idx3-ubyte.gz
+dataset/train-labels-idx1-ubyte.gz
+
+dataset/__pycache__/__init__.cpython-36.pyc
+dataset/__pycache__/mnist.cpython-36.pyc
+
