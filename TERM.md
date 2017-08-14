@@ -43,6 +43,8 @@ http://s0sem0y.hatenablog.com/entry/2017/05/17/045055
   http://naop.jp/topics/topics25.html
   http://qiita.com/43x2/items/aaff93cc0b978223a8f6
   https://datahotel.io/archives/738
+  https://sci-pursuit.com/math/differential-1.html
+    ある関数（今の場合は、y=x2）の任意の点における傾きを導く式を導関数といい、この導関数を求めることを、一般に微分というのです。
 
 例えば、ある関数に渡すパラメータが0から5まで1ずつ増えていく場合に
 「3」の時点の微分を出したければ、3 + 0.0001(1e-4) と 3 - 0.0001(1e-4) / 2 * 0.0001(1e-4) という2つのパラメータで微分を求める
@@ -58,3 +60,7 @@ http://dic.nicovideo.jp/a/%E5%BE%AE%E5%88%86
 
 最終ノードより前の損失（誤差）の計算方法
 = 最終ノードの誤差に対し、重み（w）を渡した割合をもとめ、渡した側にその割合文の損失を加算していく
+
+## その他
+#### 式の展開(n乘の展開とか)
+http://math.005net.com/yoten/tenkai.php
