@@ -23,6 +23,24 @@ class MulLayer:
         # xに対して1.1という値の打ち消し微分を渡したいので。
         return dx, dy
 
+class AddLayer:
+    def __init__(self):
+        self.x = None
+        self.y = None
+        return
+
+    def forward(self, x, y):
+        self.x = x
+        self.y = y
+        return x + y
+
+    # doutは逆伝播時の微分値
+    # このメソッドは出力として微分値を返します
+    def backword(self, dout):
+        dx = dout * 1
+        dy = dout * 1
+        return dx, dy
+
 origin_price = 100
 buy_count = 2
 tax = 1.1
