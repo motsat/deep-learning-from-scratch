@@ -104,3 +104,4 @@ http://dic.nicovideo.jp/a/%E5%BE%AE%E5%88%86
 #### 式の展開(n乘の展開とか)
 http://math.005net.com/yoten/tenkai.php
 http://memo.sugyan.com/entry/20151124/1448292129
+http://arakan-pgm-ai.hatenablog.com/entry/2017/05/08/205332
